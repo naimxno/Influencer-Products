@@ -12,13 +12,89 @@
 </head>
 
 <body>
+  <header>
+    <!-- ------------------navber------------------------------ -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">HAPPY MEET</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-none d-lg-block d-xl-block d-xxl-block">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- -------------------Slides------------------- -->
+    <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner position-relative" style="z-index: 1">
+        <div class="position-absolute bg-dark text-dark bg-opacity-50 w-100 h-100" style="z-index: 2">
+          <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+            <h1>Complete Event Planning & Solution </h1>
+            <p class="w-100 mx-auto">
+              With many years of experience in event organizing, we understand that there many factors that lead to a
+              well-organized and successful event & wedding Planning.
+            </p>
+            <button type="button" class="btn btn-light fw-bold text-primary px-3 py-1">
+              <a class="nav-link" href="https://web.facebook.com/naimxno2/" target="_blank">Book Now</a>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="./images/banner.png" class="d-block w-auto" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner-1.jpg" class="d-block w-auto" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner-2.jpg" class="d-block w-auto" alt="..." />
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <main>
+    </header>
 
 
 
-  <!-- Bootstrap script link -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    <!-- Bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
